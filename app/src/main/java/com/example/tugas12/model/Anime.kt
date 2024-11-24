@@ -1,4 +1,4 @@
-package com.example.tugas11.model
+package com.example.tugas12.model
 
 import com.google.gson.annotations.SerializedName
 
@@ -12,7 +12,9 @@ data class Anime(
     @SerializedName("score")
     val score: Float,
     @SerializedName("images")
-    val images: AnimeImage
+    val images: AnimeImage,
+    @SerializedName("mal_id")
+    val malId: Int
 )
 
 data class AnimeImage(
